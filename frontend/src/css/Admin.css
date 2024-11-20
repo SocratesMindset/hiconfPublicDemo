@@ -1,0 +1,77 @@
+.adminPage {
+  padding: 2% 5%;
+}
+
+.adminTitle {
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #cccccc;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.adminmainSection {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+}
+.admincontainer {
+  display: block;
+  margin: 40px auto;
+  max-width: 80%;
+  padding: 10px;
+  background-color: #efeeee;
+  border-radius: 10px;
+}
+
+.adminoneConf {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #d0cfcf;
+}
+.adminconfItem {
+  font-style: normal;
+  outline: none;
+  width: 28%;
+  font-weight: 500;
+}
+.adminconfItem p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  border-right: solid;
+  border-width: 2px;
+  border-color: #d0cfcf;
+}
+
+.adminconfItem select {
+  border: solid;
+  border-width: 0.8px;
+  border-color: #d0cfcf;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
+}
+
+.adminbtn {
+  padding: 10px 50px;
+  font-size: 20px;
+  border-width: 0.5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 550;
+  align-items: flex-end;
+}
+.adminbtn:hover {
+  background-color: #0d0d0d;
+  color: aliceblue;
+  transition: 0.3s;
+}

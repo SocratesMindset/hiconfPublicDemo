@@ -1,0 +1,45 @@
+.profiePage {
+  padding: 2% 5%;
+}
+
+.profileTitle {
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #cccccc;
+  padding-bottom: 10px;
+}
+.mainSection {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+  align-items: center;
+}
+.icon {
+  font-size: 130px;
+  margin-right: 60px;
+}
+
+.confLine {
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #0d0d0d;
+  margin-bottom: 70px;
+}
+
+.profileForm h4 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 550;
+  margin: 10px auto;
+}
+.btn {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 50px;
+  font-size: 20px;
+  border-width: 0.5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 550;
+}

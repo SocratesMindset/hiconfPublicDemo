@@ -1,0 +1,20 @@
+.contactsPage {
+  padding: 2% 5%;
+}
+
+.contactsTitle {
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #cccccc;
+  padding-bottom: 10px;
+}
+.noPage {
+  display: flex;
+}
+
+.noPage h1 {
+  font-size: 55px;
+  color: rgb(160, 159, 159);
+  font-style: normal;
+  margin: 110px auto;
+}

@@ -1,0 +1,40 @@
+li {
+  cursor: pointer;
+  list-style: None;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 29px;
+  margin-right: 29px;
+}
+
+a {
+  text-decoration: None;
+  /* TODO - ну хуй знает с этими вашими закорючками */
+
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a.logoTitle {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0d0d0d;
+  padding: 20px;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navEnter {
+  margin-top: 6px;
+  color: #ffffff;
+  cursor: pointer;
+}

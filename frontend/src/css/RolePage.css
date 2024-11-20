@@ -1,0 +1,10 @@
+.rolePage {
+    padding: 2% 5%;
+  }
+  
+  .roleTitle {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+    padding-bottom: 10px;
+  }

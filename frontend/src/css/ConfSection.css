@@ -1,0 +1,32 @@
+.confSection h4 {
+    text-align: center;
+    margin-bottom: 6px;
+    font-style: normal;
+    font-weight: 550;
+  }
+
+  .confLine {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    min-width: 330px;
+    align-items: flex-end;
+  }
+  
+  .confLine input {
+    width: 75%;
+    border: none;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #0d0d0d;
+    outline: none;
+    text-align: center;
+    padding-right: 35px;
+    color: #7e7e7e;
+    min-height: 50px;
+    font-size: 20px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }

@@ -1,0 +1,92 @@
+.auth {
+  background: url(../image/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 5%;
+}
+
+.authContent {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70%;
+  margin: 100px auto;
+}
+
+.bdform {
+  border: 3px;
+  border-radius: 5px;
+  padding: 20px 50px;
+  background-color: #f8f8f8;
+  display: block;
+  font-style: normal;
+  min-width: 350px;
+}
+
+.authText {
+  display: block;
+  color: #f8f8f8;
+  font-size: 30px;
+}
+
+h1 {
+  display: block;
+  color: #f8f8f8;
+  font-size: 40px;
+}
+
+.formTitle {
+  font-weight: 800;
+  font-size: 29px;
+  margin-bottom: 12px;
+}
+
+.formSubtitle {
+  font-weight: 500;
+}
+
+.autMainText {
+  margin-bottom: 35px;
+}
+.input-box {
+  margin-bottom: 45px;
+}
+.input-box input {
+  height: 70px;
+  width: 100%;
+  border: none;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #cccccc;
+  background-color: #f8f8f8;
+  outline: none;
+}
+
+.formSubtitle span button {
+  color: #528fec;
+  text-decoration: underline;
+  border: none;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.authButton {
+  float: right;
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-right: 1px;
+  padding: 15px 35px;
+  background-color: #528fec;
+  color: #f8f8f8;
+  border: 10px;
+  border-color: #528fec;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.authButton:hover {
+  background-color: #a1c1f1;
+}

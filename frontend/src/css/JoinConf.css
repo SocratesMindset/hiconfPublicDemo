@@ -1,0 +1,69 @@
+.joinConfPage {
+    padding: 2% 5%;
+  }
+  
+  .joinConfTitle {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+    padding-bottom: 10px;
+  }
+  .mainSection {
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+  }
+  
+  .confForm {
+    display: block;
+    text-align: center;
+  }
+  
+  .confForm h4 {
+    font-style: normal;
+    font-weight: 550;
+    margin-right: 80px;
+  }
+  
+  
+  .confLine {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    min-width: 330px;
+    align-items: flex-end;
+  }
+  
+  .confLine input {
+    width: 75%;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #7e7e7e;
+    min-height: 50px;
+    font-size: 20px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  .addConfBtn {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-width: 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 550;
+  }
+  .addConfBtn:hover {
+    background-color: #0d0d0d;
+    color: aliceblue;
+    transition: 0.3s;
+  }
+  .file {
+    margin-bottom: 40px;
+  }
